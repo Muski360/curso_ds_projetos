@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Simples</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
+        <br><br>
+        <label for="Idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade...">
+        <br><br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" id="sexo" value="masculino">
+        <label for="sexo">Masculino</label>
+        <input type="radio" name="sexo" id="sexo" value="feminino">
+        <label for="sexo">Feminino</label>
+        <br><br>
+        <label for="Cursos">Cursos de interesses:</label>
+        <input type="checkbox" name="curso" id="curso" value="programacao">
+        <label for="curso">Programação</label>
+        <input type="checkbox" name="curso" id="curso" value="design">
+        <label for="curso">Design</label>
+        <input type="checkbox" name="curso" id="curso" value="marketing">
+        <label for="curso">Marketing</label>
+        <input type="checkbox" name="curso" id="curso" value="financeiro">
+        <label for="curso">Financeiro</label>
+        <br><br>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="BA">Bahia</option>
+        </select>
+        <br><br>
+        <label for="upload">Upload de sua foto:</label>
+        <input type="file" name="foto" id="foto">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

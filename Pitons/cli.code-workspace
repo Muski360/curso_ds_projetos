@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 14,
+		"editor.fontFamily": "'Poppins', Consolas, 'Courier New'",
+		"workbench.colorTheme": "Copilot Theme",
+		"editor.autoIndentOnPaste": true,
+		"editor.cursorBlinking": "smooth",
+		"editor.wrapOnEscapedLineFeeds": false
+	}
+}
