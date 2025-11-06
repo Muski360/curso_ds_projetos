@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout completo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif'
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        nav {
+            float: left;
+            width: 25%;
+            height: 400px;
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #ddd;
+            text-align: center;
+        }
+        nav li:hover {
+            background-color: #ccc;
+            cursor: pointer;
+        }
+        section {
+            float: left;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer {
+            clear: both;
+            background-color:#333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .btn-top {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Portal de notícias</h1></header>
+
+    <nav>
+        <h3>Menu</h3>
+        <ul>
+            <li>Início</li>
+            <li>Tecnologia</li>
+            <li>Esportes</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Destaques do Dia</h2>
+        <p>Bem-vindo ao portal! Aqui voce encontra as ultimas notícias e novidades sobre tecnologia, esporte e cultura.</p>
+        <p>Role a página e veja que o botão no canto inferior direito permanece fixo!</p>
+    </section>
+    <footer>
+        &copy; 2025 - LIMA - Layout 
+    </footer>
+    <button class="btn-top" onclick="window.scrollTo({top:0, behavior: 'smooth'})">⬆</button>
+</body>
+</html>
